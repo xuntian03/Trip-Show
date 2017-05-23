@@ -1,0 +1,23 @@
+.title {
+  text-align:center;
+  font-size:48rpx;
+  color:red;
+  padding:20rpx;
+}
+
+.views {
+  display:flex;
+  flex-direction:column;
+  border-top:1rpx solid #ccc;
+  padding:20rpx;
+  cursor:pointer;
+}
+
+.views image {
+  width:400rpx;
+  height:240rpx;
+}
+
+.views text {
+  margin-left:20rpx;
+}

@@ -1,0 +1,14 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="title">{{title}}</view>
+  <view>
+    <block wx:for="{{views}}" wx:key="views">
+    <view class="views">
+    <navigator url="../item/item?views={{item.views}}" hover-class="none">
+      <image src="{{item.photos}}" />
+      <text>{{item.views}}</text>
+    </navigator>
+    </view>
+   </block>
+  </view>
+</view>

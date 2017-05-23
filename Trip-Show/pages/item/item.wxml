@@ -1,0 +1,10 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="title">{{title}}</view>
+  <view class="detail">
+  <block wx:for="{{detail}}" wx:key="views">
+    <view class="city">所属城市：{{item.city}}</view>
+    <view class="itro">简介：{{item.item}}</view>
+  </block>
+  </view>
+</view>

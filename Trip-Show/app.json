@@ -1,0 +1,13 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/list/list",
+    "pages/item/item"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#345",
+    "navigationBarTitleText": "Trip-Show",
+    "navigationBarTextStyle":"white"
+  }
+}
